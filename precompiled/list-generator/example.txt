@@ -1,0 +1,3 @@
+tego będzie pięć	5
+tego będzie trzy	3
+tego będzie tylko jedno	1

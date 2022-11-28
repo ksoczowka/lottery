@@ -1,0 +1,4 @@
+/home/soczi/Pulpit/lottery/precompiled/CMakeFiles/Lottery.dir
+/home/soczi/Pulpit/lottery/precompiled/CMakeFiles/Generator.dir
+/home/soczi/Pulpit/lottery/precompiled/CMakeFiles/edit_cache.dir
+/home/soczi/Pulpit/lottery/precompiled/CMakeFiles/rebuild_cache.dir
