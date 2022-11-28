@@ -1,0 +1,1 @@
+/usr/bin/c++ "CMakeFiles/Generator.exe.dir/app/list-generator/main.cpp.o" -o Generator.exe 

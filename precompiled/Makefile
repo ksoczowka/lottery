@@ -117,37 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Lottery
+# Target rules for targets named Lottery.exe
 
 # Build rule for target.
-Lottery: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lottery
-.PHONY : Lottery
+Lottery.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Lottery.exe
+.PHONY : Lottery.exe
 
 # fast build rule for target.
-Lottery/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/build
-.PHONY : Lottery/fast
+Lottery.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/build
+.PHONY : Lottery.exe/fast
 
 #=============================================================================
-# Target rules for targets named Generator
+# Target rules for targets named Generator.exe
 
 # Build rule for target.
-Generator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Generator
-.PHONY : Generator
+Generator.exe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Generator.exe
+.PHONY : Generator.exe
 
 # fast build rule for target.
-Generator/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/build
-.PHONY : Generator/fast
+Generator.exe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/build
+.PHONY : Generator.exe/fast
 
 app/list-generator/main.o: app/list-generator/main.cpp.o
 .PHONY : app/list-generator/main.o
 
 # target to build an object file
 app/list-generator/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/app/list-generator/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/app/list-generator/main.cpp.o
 .PHONY : app/list-generator/main.cpp.o
 
 app/list-generator/main.i: app/list-generator/main.cpp.i
@@ -155,7 +155,7 @@ app/list-generator/main.i: app/list-generator/main.cpp.i
 
 # target to preprocess a source file
 app/list-generator/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/app/list-generator/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/app/list-generator/main.cpp.i
 .PHONY : app/list-generator/main.cpp.i
 
 app/list-generator/main.s: app/list-generator/main.cpp.s
@@ -163,7 +163,7 @@ app/list-generator/main.s: app/list-generator/main.cpp.s
 
 # target to generate assembly for a file
 app/list-generator/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/app/list-generator/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/app/list-generator/main.cpp.s
 .PHONY : app/list-generator/main.cpp.s
 
 app/lottery/main.o: app/lottery/main.cpp.o
@@ -171,7 +171,7 @@ app/lottery/main.o: app/lottery/main.cpp.o
 
 # target to build an object file
 app/lottery/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/app/lottery/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/app/lottery/main.cpp.o
 .PHONY : app/lottery/main.cpp.o
 
 app/lottery/main.i: app/lottery/main.cpp.i
@@ -179,7 +179,7 @@ app/lottery/main.i: app/lottery/main.cpp.i
 
 # target to preprocess a source file
 app/lottery/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/app/lottery/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/app/lottery/main.cpp.i
 .PHONY : app/lottery/main.cpp.i
 
 app/lottery/main.s: app/lottery/main.cpp.s
@@ -187,7 +187,7 @@ app/lottery/main.s: app/lottery/main.cpp.s
 
 # target to generate assembly for a file
 app/lottery/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/app/lottery/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/app/lottery/main.cpp.s
 .PHONY : app/lottery/main.cpp.s
 
 # Help Target
@@ -198,8 +198,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... Generator"
-	@echo "... Lottery"
+	@echo "... Generator.exe"
+	@echo "... Lottery.exe"
 	@echo "... app/list-generator/main.o"
 	@echo "... app/list-generator/main.i"
 	@echo "... app/list-generator/main.s"

@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Lottery.exe.dir/app/lottery/main.cpp.o -o Lottery.exe 

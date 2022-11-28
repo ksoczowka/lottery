@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/soczi/Pulpit/lottery/precompiled
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Lottery.dir/all
-all: CMakeFiles/Generator.dir/all
+all: CMakeFiles/Lottery.exe.dir/all
+all: CMakeFiles/Generator.exe.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Lottery.dir/clean
-clean: CMakeFiles/Generator.dir/clean
+clean: CMakeFiles/Lottery.exe.dir/clean
+clean: CMakeFiles/Generator.exe.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Lottery.dir
+# Target rules for target CMakeFiles/Lottery.exe.dir
 
 # All Build rule for target.
-CMakeFiles/Lottery.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/soczi/Pulpit/lottery/precompiled/CMakeFiles --progress-num=3,4 "Built target Lottery"
-.PHONY : CMakeFiles/Lottery.dir/all
+CMakeFiles/Lottery.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/soczi/Pulpit/lottery/precompiled/CMakeFiles --progress-num=3,4 "Built target Lottery.exe"
+.PHONY : CMakeFiles/Lottery.exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Lottery.dir/rule: cmake_check_build_system
+CMakeFiles/Lottery.exe.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/soczi/Pulpit/lottery/precompiled/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lottery.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Lottery.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/soczi/Pulpit/lottery/precompiled/CMakeFiles 0
-.PHONY : CMakeFiles/Lottery.dir/rule
+.PHONY : CMakeFiles/Lottery.exe.dir/rule
 
 # Convenience name for target.
-Lottery: CMakeFiles/Lottery.dir/rule
-.PHONY : Lottery
+Lottery.exe: CMakeFiles/Lottery.exe.dir/rule
+.PHONY : Lottery.exe
 
 # clean rule for target.
-CMakeFiles/Lottery.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.dir/build.make CMakeFiles/Lottery.dir/clean
-.PHONY : CMakeFiles/Lottery.dir/clean
+CMakeFiles/Lottery.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Lottery.exe.dir/build.make CMakeFiles/Lottery.exe.dir/clean
+.PHONY : CMakeFiles/Lottery.exe.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Generator.dir
+# Target rules for target CMakeFiles/Generator.exe.dir
 
 # All Build rule for target.
-CMakeFiles/Generator.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/soczi/Pulpit/lottery/precompiled/CMakeFiles --progress-num=1,2 "Built target Generator"
-.PHONY : CMakeFiles/Generator.dir/all
+CMakeFiles/Generator.exe.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/soczi/Pulpit/lottery/precompiled/CMakeFiles --progress-num=1,2 "Built target Generator.exe"
+.PHONY : CMakeFiles/Generator.exe.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Generator.dir/rule: cmake_check_build_system
+CMakeFiles/Generator.exe.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/soczi/Pulpit/lottery/precompiled/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Generator.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/Generator.exe.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/soczi/Pulpit/lottery/precompiled/CMakeFiles 0
-.PHONY : CMakeFiles/Generator.dir/rule
+.PHONY : CMakeFiles/Generator.exe.dir/rule
 
 # Convenience name for target.
-Generator: CMakeFiles/Generator.dir/rule
-.PHONY : Generator
+Generator.exe: CMakeFiles/Generator.exe.dir/rule
+.PHONY : Generator.exe
 
 # clean rule for target.
-CMakeFiles/Generator.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.dir/build.make CMakeFiles/Generator.dir/clean
-.PHONY : CMakeFiles/Generator.dir/clean
+CMakeFiles/Generator.exe.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Generator.exe.dir/build.make CMakeFiles/Generator.exe.dir/clean
+.PHONY : CMakeFiles/Generator.exe.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
